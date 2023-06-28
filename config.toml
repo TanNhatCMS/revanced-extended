@@ -1,29 +1,23 @@
 logging-to-file = true        # enables logging of every patch process to a seperate file
 enable-magisk-update = false   # set this to false if you do not want to receive updates for the module in magisk app
 build-mindetach-module = false
-patches-source = "TanNhatCMS/revanced-patches"
-integrations-source = "TanNhatCMS/revanced-integrations"
-rv-brand = "Youtube+"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+rv-brand = "ReVanced eXtended"
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 [YouTube]
-excluded-patches = "enable-debugging"  
-build-mode = "apk"                                                   # 'both', 'apk' or 'module'
+app-name = "YouTube+"
+build-mode = "both"                                                   # 'both', 'apk' or 'module'
 excluded-patches = ""                                                 # whitespace seperated list of patches to exclude (multiline strings are not supported)
 included-patches = ""                                                 # whitespace seperated list of patches to include
-version = "18.17.43"                                                      # 'auto', 'latest' or a custom one like '17.40.41'
-#exclusive-patches = false                                             # excludes all patches by default
-#apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
-#uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-module-prop-name = "yt-rvx"
-app-name = "YouTube+"
-enabled = true
-exclusive-patches = false                                             # excludes all patches by default and only applies included-patches
+version = "auto"                                                      # 'auto', 'latest' or a custom one like '17.40.41'
+exclusive-patches = false                                             # excludes all patches by default
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
-module-prop-name = "yt-rv"
-arch = "both"
+module-prop-name = "yt-rvx"
+
 [Music]
 enabled = false
 build-mode = "both"
