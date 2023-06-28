@@ -18,7 +18,9 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 module-prop-name = "yt-rvx"
 app-name = "YouTube+"
 arch = "both"
+enabled = true
 [Music]
+enabled = false
 build-mode = "both"
 app-name = "YouTube-Music"
 excluded-patches = ""
