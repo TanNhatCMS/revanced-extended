@@ -19,7 +19,6 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 module-prop-name = "yt-rvx"
 app-name = "YouTube +"
 enabled = true
-arch = "arm64-v8a"
 [Music]
 enabled = false
 build-mode = "both"
