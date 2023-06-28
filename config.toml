@@ -16,7 +16,8 @@ version = "auto"                                                      # 'auto', 
 exclusive-patches = false                                             # excludes all patches by default
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 module-prop-name = "yt-rvx"
-
+app-name = "YouTube+"
+arch = "both"
 [Music]
 build-mode = "both"
 app-name = "YouTube-Music"
